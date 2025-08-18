@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* NutriTrackAI Design System - Glassmorphism + RPG Theme */
+
+@layer base {
+  :root {
+    /* Base colors */
+    --background: 240 10% 95%;
+    --foreground: 224 71.4% 4.1%;
+
+    /* Glass morphism cards */
+    --glass: 0 0% 100%;
+    --glass-foreground: 224 71.4% 4.1%;
+    --glass-border: 0 0% 100%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 224 71.4% 4.1%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 224 71.4% 4.1%;
+
+    --primary: 262 83% 58%;
+    --primary-foreground: 210 20% 98%;
+
+    --secondary: 220 14.3% 95.9%;
+    --secondary-foreground: 220.9 39.3% 11%;
+
+    --muted: 220 14.3% 95.9%;
+    --muted-foreground: 220 8.9% 46.1%;
+
+    --accent: 220 14.3% 95.9%;
+    --accent-foreground: 220.9 39.3% 11%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 20% 98%;
+
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 262 83% 58%;
+
+    /* RPG Stat Colors */
+    --hp-red: 0 72% 51%;
+    --hp-red-foreground: 0 0% 100%;
+    --stamina-yellow: 48 96% 53%;
+    --stamina-yellow-foreground: 26 83% 14%;
+    --strength-green: 142 71% 45%;
+    --strength-green-foreground: 0 0% 100%;
+    --defense-blue: 221 83% 53%;
+    --defense-blue-foreground: 0 0% 100%;
+
+    /* Gradients */
+    --gradient-glass: linear-gradient(135deg, hsl(0 0% 100% / 0.1), hsl(0 0% 100% / 0.05));
+    --gradient-primary: linear-gradient(135deg, hsl(262 83% 58%), hsl(262 83% 68%));
+    --gradient-hp: linear-gradient(135deg, hsl(0 72% 51%), hsl(0 72% 61%));
+    --gradient-stamina: linear-gradient(135deg, hsl(48 96% 53%), hsl(48 96% 63%));
+    --gradient-strength: linear-gradient(135deg, hsl(142 71% 45%), hsl(142 71% 55%));
+    --gradient-defense: linear-gradient(135deg, hsl(221 83% 53%), hsl(221 83% 63%));
+
+    /* Shadows */
+    --shadow-glass: 0 8px 32px 0 hsl(31 38% 56% / 0.37);
+    --shadow-glow: 0 0 40px -10px hsl(var(--primary) / 0.35);
+    --shadow-hp-glow: 0 0 40px -10px hsl(var(--hp-red) / 0.35);
+    --shadow-stamina-glow: 0 0 40px -10px hsl(var(--stamina-yellow) / 0.35);
+    --shadow-strength-glow: 0 0 40px -10px hsl(var(--strength-green) / 0.35);
+    --shadow-defense-glow: 0 0 40px -10px hsl(var(--defense-blue) / 0.35);
+
+    --radius: 1rem;
+  }
+
+  .dark {
+    --background: 224 71.4% 4.1%;
+    --foreground: 210 20% 98%;
+
+    /* Dark glass morphism */
+    --glass: 224 71.4% 4.1%;
+    --glass-foreground: 210 20% 98%;
+    --glass-border: 210 20% 98%;
+
+    --card: 224 71.4% 4.1%;
+    --card-foreground: 210 20% 98%;
+
+    --popover: 224 71.4% 4.1%;
+    --popover-foreground: 210 20% 98%;
+
+    --primary: 262 83% 58%;
+    --primary-foreground: 210 20% 98%;
+
+    --secondary: 215 27.9% 16.9%;
+    --secondary-foreground: 210 20% 98%;
+
+    --muted: 215 27.9% 16.9%;
+    --muted-foreground: 217.9 10.6% 64.9%;
+
+    --accent: 215 27.9% 16.9%;
+    --accent-foreground: 210 20% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 20% 98%;
+
+    --border: 215 27.9% 16.9%;
+    --input: 215 27.9% 16.9%;
+    --ring: 262 83% 58%;
+
+    /* Dark gradients */
+    --gradient-glass: linear-gradient(135deg, hsl(224 71% 4% / 0.4), hsl(224 71% 4% / 0.2));
+    --shadow-glass: 0 8px 32px 0 hsl(0 0% 0% / 0.37);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
