@@ -61,21 +61,16 @@ This project demonstrates the integration of modern frontend technologies with A
 
 ### Installation & Run
 
-```bash
 git clone <YOUR_GITHUB_REPO_URL>
 cd nutri-track-ai
 npm install
 npm run dev
 The application will run at:
 
-arduino
-Copy code
 http://localhost:5173
 🔐 Environment Variables
 Create a .env file in the root directory:
 
-env
-Copy code
 VITE_GEMINI_API_KEY=your_api_key_here
 🚀 Deployment
 The project can be deployed on platforms such as:
@@ -85,9 +80,6 @@ Vercel
 Netlify
 
 Build command:
-
-bash
-Copy code
 npm run build
 👥 Team
 This project was developed as a collaborative team project by:
@@ -100,23 +92,3 @@ Ritesh Zagade
 
 📄 License
 This project is intended for educational and portfolio purposes.
-
-yaml
-Copy code
-
----
-
-### ✅ Why this version is strong
-✔ Fully professional  
-✔ Resume & ATS friendly  
-✔ No contribution conflicts  
-✔ Interview-safe  
-✔ Clean GitHub presentation  
-
-If you want next, I can:
-- 🎯 Create a **one-line resume entry**
-- 🎤 Prepare **viva/interview explanation**
-- 🎮 Suggest **RPG UI enhancements**
-- 📸 Add **README screenshots section**
-
-Just tell me 👍
