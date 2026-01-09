@@ -60,7 +60,7 @@ This project demonstrates the integration of modern frontend technologies with A
 - npm
 
 ### Installation & Run
-
+```
 git clone <YOUR_GITHUB_REPO_URL>
 cd nutri-track-ai
 npm install
@@ -72,21 +72,21 @@ http://localhost:5173
 Create a .env file in the root directory:
 
 VITE_GEMINI_API_KEY=your_api_key_here
-
+```
 🚀 Deployment
-
+```
 The project can be deployed on platforms such as:
 
 Vercel
 
 Netlify
-
+```
 Build command:
-
+```
 npm run build
-
+```
 👥 Team
-
+```
 This project was developed as a collaborative team project by:
 
 Mohammed Yusuf Sayed
@@ -94,7 +94,9 @@ Mohammed Yusuf Sayed
 Kartik Mailaram
 
 Ritesh Zagade
-
+```
 📄 License
+```
+This project is intended for educational and portfolio purposes.
 
 This project is intended for educational and portfolio purposes.
