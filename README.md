@@ -32,8 +32,11 @@ This project demonstrates the integration of modern frontend technologies with A
 - **Vite** – Fast build tool and development server  
 - **Tailwind CSS** – Utility-first responsive styling  
 - **shadcn/ui** – Reusable and accessible UI components  
+- **Supabase** – Authentication and backend services  
 - **Google Gemini Vision API** – Image-based food analysis and calorie estimation  
-
+- **Bun / npm** – Package management and dependency handling  
+- **ESLint** – Code linting and quality enforcement  
+- **PostCSS** – CSS processing pipeline  
 ---
 
 ## ⚙️ How It Works
