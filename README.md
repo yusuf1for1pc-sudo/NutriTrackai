@@ -11,6 +11,9 @@ NutriTrack AI allows users to upload images of their meals, which are analyzed u
 
 This project demonstrates the integration of modern frontend technologies with AI-based image analysis in a real-world health-tech use case.
 
+🔗 Live Demo: https://nutri-trackai.vercel.app  
+⚠️ Note: Authentication and backend services (Supabase) are paused in the live demo due to free-tier limitations. The application flow, UI design, and features can be fully experienced in local setup.
+
 ---
 
 ## 🎮 RPG-Style UI Concept
