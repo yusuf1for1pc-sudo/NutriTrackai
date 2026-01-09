@@ -72,7 +72,9 @@ http://localhost:5173
 Create a .env file in the root directory:
 
 VITE_GEMINI_API_KEY=your_api_key_here
+
 🚀 Deployment
+
 The project can be deployed on platforms such as:
 
 Vercel
@@ -80,8 +82,11 @@ Vercel
 Netlify
 
 Build command:
+
 npm run build
+
 👥 Team
+
 This project was developed as a collaborative team project by:
 
 Mohammed Yusuf Sayed
@@ -91,4 +96,5 @@ Kartik Mailaram
 Ritesh Zagade
 
 📄 License
+
 This project is intended for educational and portfolio purposes.
