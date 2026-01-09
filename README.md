@@ -1,73 +1,122 @@
-# Welcome to your Lovable project
+# 🥗 NutriTrack AI  
+### AI-Powered Food Calorie Tracker with RPG-Style Interface
 
-## Project info
+NutriTrack AI is an interactive web application that estimates **calories and nutritional values from food images** using **AI-powered image analysis**. The application presents results through a **gamified RPG-style user interface**, transforming nutrition tracking into an engaging and immersive experience.
 
-**URL**: https://lovable.dev/projects/c41fbf17-9e52-47c2-8742-a47c10ca7a74
+---
 
-## How can I edit this code?
+## 📌 Project Overview
 
-There are several ways of editing your application.
+NutriTrack AI allows users to upload images of their meals, which are analyzed using an AI vision model to identify food items and estimate calorie values. Instead of displaying plain numerical data, the application visualizes nutrition information using RPG-inspired elements such as progress bars and levels, improving user motivation and usability.
 
-**Use Lovable**
+This project demonstrates the integration of modern frontend technologies with AI-based image analysis in a real-world health-tech use case.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/c41fbf17-9e52-47c2-8742-a47c10ca7a74) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🎮 RPG-Style UI Concept
 
-**Use your preferred IDE**
+- Gamified progress indicators for daily calorie intake  
+- Health and energy bars mapped to nutritional values  
+- Level-based visualization to encourage healthy eating habits  
+- Interactive and immersive UI design inspired by RPG mechanics  
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🛠 Tech Stack
 
-Follow these steps:
+- **React** – Component-based frontend development  
+- **TypeScript** – Type-safe application logic  
+- **Vite** – Fast build tool and development server  
+- **Tailwind CSS** – Utility-first responsive styling  
+- **shadcn/ui** – Reusable and accessible UI components  
+- **Google Gemini Vision API** – Image-based food analysis and calorie estimation  
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## ⚙️ How It Works
 
-# Step 3: Install the necessary dependencies.
-npm i
+1. User uploads a food image  
+2. The image is processed using the Gemini Vision API  
+3. AI identifies food items and estimates calorie values  
+4. Nutrition data is mapped to RPG-style UI elements  
+5. User progress updates dynamically  
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+---
+
+## 🚀 Features
+
+- Image-based calorie estimation using AI  
+- RPG-style gamified user interface  
+- Real-time nutrition feedback  
+- Responsive and mobile-friendly design  
+- Clean and scalable frontend architecture  
+
+---
+
+## ⚙️ Local Setup
+
+### Prerequisites
+- Node.js (v18+)
+- npm
+
+### Installation & Run
+
+```bash
+git clone <YOUR_GITHUB_REPO_URL>
+cd nutri-track-ai
+npm install
 npm run dev
-```
+The application will run at:
 
-**Edit a file directly in GitHub**
+arduino
+Copy code
+http://localhost:5173
+🔐 Environment Variables
+Create a .env file in the root directory:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+env
+Copy code
+VITE_GEMINI_API_KEY=your_api_key_here
+🚀 Deployment
+The project can be deployed on platforms such as:
 
-**Use GitHub Codespaces**
+Vercel
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Netlify
 
-## What technologies are used for this project?
+Build command:
 
-This project is built with:
+bash
+Copy code
+npm run build
+👥 Team
+This project was developed as a collaborative team project by:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Mohammed Yusuf Sayed
 
-## How can I deploy this project?
+Kartik Mailaram
 
-Simply open [Lovable](https://lovable.dev/projects/c41fbf17-9e52-47c2-8742-a47c10ca7a74) and click on Share -> Publish.
+Ritesh Zagade
 
-## Can I connect a custom domain to my Lovable project?
+📄 License
+This project is intended for educational and portfolio purposes.
 
-Yes, you can!
+yaml
+Copy code
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+### ✅ Why this version is strong
+✔ Fully professional  
+✔ Resume & ATS friendly  
+✔ No contribution conflicts  
+✔ Interview-safe  
+✔ Clean GitHub presentation  
+
+If you want next, I can:
+- 🎯 Create a **one-line resume entry**
+- 🎤 Prepare **viva/interview explanation**
+- 🎮 Suggest **RPG UI enhancements**
+- 📸 Add **README screenshots section**
+
+Just tell me 👍
